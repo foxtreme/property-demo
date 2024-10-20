@@ -7,7 +7,7 @@ from app.repositories.property_repository import PropertyRepository
 property_repository = PropertyRepository()
 
 
-class PropertyController:
+class PropertyService:
     @staticmethod
     def add_property(data):
         try:
